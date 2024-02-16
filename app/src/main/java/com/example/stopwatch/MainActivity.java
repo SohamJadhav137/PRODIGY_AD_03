@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
@@ -16,7 +17,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    MaterialButton reset, start, stop;
+    Button reset, start, stop;
     int seconds, minutes, milliSeconds;
     long millisecondTime, startTime, timeBuff, updateTime = 0L ;
     Handler handler;
